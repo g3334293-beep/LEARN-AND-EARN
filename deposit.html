@@ -1,29 +1,64 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Deposit - My Earning Website</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deposit via JazzCash 💸</title>
   <style>
-    body { font-family: Arial; background: #eef3f7; text-align: center; padding: 40px; }
-    input, button { padding: 12px; margin: 10px; border-radius: 6px; border: 1px solid #ccc; }
-    button { background: #007bff; color: #fff; cursor: pointer; }
-    button:hover { background: #0056b3; }
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #2b5876, #4e4376);
+      color: white;
+      text-align: center;
+      padding: 40px;
+    }
+    h1 {
+      margin-bottom: 20px;
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.15);
+      padding: 25px;
+      border-radius: 10px;
+      display: inline-block;
+      width: 300px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+    .btn {
+      background-color: #ffcc00;
+      border: none;
+      color: black;
+      padding: 10px 20px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+    .btn:hover {
+      background-color: #ffc107;
+    }
   </style>
 </head>
 <body>
-  <h1>Deposit via JazzCash 💸</h1>
-  <p>Enter the amount you want to deposit:</p>
 
-  <input type="number" placeholder="Enter Amount (PKR)" />
-  <br>
-  <button>Deposit Now</button>
+  <h1>💰 JazzCash Deposit Page</h1>
+  <div class="card">
+    <h2>Deposit Information</h2>
+    <p><strong>JazzCash Number:</strong> <span style="color:#00ffcc;">03020108474</span></p>
+    <p><strong>Minimum Deposit:</strong> Rs. 1000</p>
+    <p>Please send your deposit to the above JazzCash number and then click the button below to confirm your payment.</p>
 
-  <p style="margin-top: 40px; color: gray;">
-    (Demo Only — JazzCash connection will be added later)
-  </p>
+    <button class="btn">✅ I Have Deposited</button>
+  </div>
+
+  <br><br>
+
+  <a href="index.html">
+    <button style="background:#6c757d; color:white; padding:10px 20px; border:none; border-radius:6px; cursor:pointer;">
+      🏠 Back to Home
+    </button>
+  </a>
+
 </body>
 </html>
-<a href="index.html">
-  <button style="background:#6c757d; color:white;">🏠 Back to Home</button>
-</a>
